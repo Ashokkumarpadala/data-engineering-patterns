@@ -1,0 +1,211 @@
+SQL INTERVIEW PATTERNS ROADMAP (DATA ENGINEER + PRODUCT COMPANIES)
+
+FOUNDATIONS
+------------
+[ ] Basic SELECT
+[ ] WHERE
+[ ] CASE WHEN
+[ ] ORDER BY
+[ ] LIMIT/TOP
+[ ] DISTINCT
+[ ] GROUP BY
+[ ] HAVING
+[ ] Subqueries
+[ ] Correlated Subqueries
+[ ] CTEs
+
+JOINS
+------------
+[ ] Inner Join
+[ ] Left Join
+[ ] Right Join
+[ ] Full Join
+[ ] Cross Join
+[ ] Self Join
+[ ] Semi Join
+[ ] Anti Join
+[ ] Join with NULLs
+[ ] Many-to-Many Join Issues
+
+WINDOW FUNCTIONS
+------------
+[ ] ROW_NUMBER
+[ ] RANK
+[ ] DENSE_RANK
+[ ] LEAD
+[ ] LAG
+[ ] FIRST_VALUE
+[ ] LAST_VALUE
+[ ] NTILE
+[ ] PERCENT_RANK
+[ ] CUME_DIST
+
+RANKING PATTERNS
+------------
+[ ] Top N Records
+[ ] Top N Per Group
+[ ] Bottom N Records
+[ ] Bottom N Per Group
+[ ] Nth Highest Salary
+[ ] Second Highest Salary
+
+DEDUPLICATION & LATEST RECORDS
+------------
+[ ] Deduplication
+[ ] Latest Record Per Customer
+[ ] First Record Per Customer
+[ ] Last Record Per Customer
+[ ] Change Detection Using Window Functions
+
+RUNNING CALCULATIONS
+------------
+[ ] Running Total
+[ ] Running Count
+[ ] Running Average
+[ ] Rolling Sum
+[ ] Rolling Average
+[ ] Moving Window Calculations
+
+TIME SERIES PATTERNS
+------------
+[ ] Revenue By Month
+[ ] Revenue By Quarter
+[ ] Month-over-Month Growth
+[ ] Year-over-Year Growth
+[ ] Time Between Events
+[ ] Missing Dates
+[ ] Calendar Table Problems
+
+CONSECUTIVE RECORD PATTERNS
+------------
+[ ] Consecutive Increases
+[ ] Consecutive Decreases
+[ ] Numbers Appearing N Times Consecutively
+[ ] Login Streaks
+[ ] Purchase Streaks
+
+GAPS & ISLANDS
+------------
+[ ] Continuous Date Ranges
+[ ] Missing Date Ranges
+[ ] Consecutive Active Days
+[ ] Consecutive Transaction Days
+
+DATA WAREHOUSING PATTERNS
+------------
+[ ] CDC Detection
+[ ] SCD Type 1
+[ ] SCD Type 2
+[ ] Snapshot Comparison
+[ ] Incremental Load Validation
+[ ] Delta Identification
+
+DATA QUALITY PATTERNS
+------------
+[ ] Duplicate Detection
+[ ] Null Validation
+[ ] Referential Integrity Checks
+[ ] Row Count Validation
+[ ] Data Reconciliation
+[ ] Column-Level Validation
+
+ANALYTICAL SQL
+------------
+[ ] Median
+[ ] Mode
+[ ] Percentile
+[ ] Quartiles
+[ ] Top 10% Customers
+[ ] Bottom 10% Customers
+
+PRODUCT COMPANY SQL
+------------
+[ ] Sessionization
+[ ] Funnel Analysis
+[ ] Retention Analysis
+[ ] Cohort Analysis
+[ ] Churn Analysis
+[ ] DAU Calculation
+[ ] WAU Calculation
+[ ] MAU Calculation
+[ ] Conversion Rate
+[ ] User Activity Analysis
+[ ] Event Stream Analysis
+
+HIERARCHY PROBLEMS
+------------
+[ ] Employee Hierarchy
+[ ] Manager Reporting Chain
+[ ] Parent-Child Hierarchy
+[ ] Recursive CTE
+
+PIVOTING
+------------
+[ ] Pivot
+[ ] Unpivot
+[ ] Dynamic Pivot
+
+ADVANCED SQL
+------------
+[ ] Overlapping Date Ranges
+[ ] Active Sessions
+[ ] Concurrent Users
+[ ] Market Basket Analysis
+[ ] String Parsing
+[ ] JSON Parsing
+[ ] Recursive Aggregation
+[ ] Window Frame Calculations
+[ ] Business Day Calculations
+[ ] Holiday Exclusion Logic
+
+MOST IMPORTANT 25 (MASTER FIRST)
+------------
+[ ] Joins
+[ ] Group By
+[ ] CTE
+[ ] ROW_NUMBER
+[ ] RANK
+[ ] DENSE_RANK
+[ ] LEAD
+[ ] LAG
+[ ] Top N Per Group
+[ ] Nth Highest Salary
+[ ] Latest Record
+[ ] Deduplication
+[ ] Running Total
+[ ] Rolling Average
+[ ] Missing Dates
+[ ] Consecutive Records
+[ ] Gaps & Islands
+[ ] Anti Join
+[ ] CDC Detection
+[ ] SCD Type 2
+[ ] Sessionization
+[ ] Funnel Analysis
+[ ] Retention Analysis
+[ ] Cohort Analysis
+[ ] Data Quality Validation
+
+
+
+**SET OPERATIONS (often tested)**
+UNION vs UNION ALL
+INTERSECT
+EXCEPT/MINUS
+**PERFORMANCE & OPTIMIZATION**
+Query Execution Plans
+Index Strategies
+Partition Pruning
+Query Optimization Techniques
+**AGGREGATION PATTERNS**
+GROUP BY CUBE
+GROUP BY ROLLUP
+GROUPING SETS
+**NULL HANDLING**
+COALESCE patterns
+NULLIF patterns
+NULL in aggregations
+**SEMI-STRUCTURED DATA**
+EXPLODE/FLATTEN arrays
+Nested JSON queries
+STRUCT operations

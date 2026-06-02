@@ -1,0 +1,167 @@
+%md
+# 🚀 SPARK INTERVIEW ROADMAP (DATA ENGINEERING)
+**Comprehensive guide for top-tier Big Data Engineering roles**
+
+## 1. SPARK CORE FOUNDATIONS
+[ ] Create DataFrame | [ ] createDataFrame() from RDD | [ ] toDF() | [ ] Read CSV | [ ] Read JSON | [ ] Read Parquet | [ ] Write CSV | [ ] Write JSON | [ ] Write Parquet | [ ] schema() | [ ] printSchema() | [ ] columns | [ ] dtypes | [ ] describe() | [ ] summary() | [ ] select() | [ ] alias() | [ ] withColumn() | [ ] drop() | [ ] withColumnRenamed() | [ ] filter() | [ ] where() | [ ] cast() | [ ] distinct() | [ ] dropDuplicates() | [ ] orderBy() | [ ] sort() | [ ] limit() | [ ] union() | [ ] unionByName()
+
+---
+
+## 2. COLUMN TRANSFORMATIONS
+[ ] when() / otherwise() | [ ] lit() | [ ] expr() | [ ] col() | [ ] concat() | [ ] concat_ws() | [ ] substring() | [ ] split() | [ ] regexp_extract() | [ ] regexp_replace() | [ ] lower() | [ ] upper() | [ ] trim() | [ ] initcap() | [ ] greatest() | [ ] least() | [ ] sha2() | [ ] md5() | [ ] monotonically_increasing_id() | [ ] translate()
+
+---
+
+## 3. DATE & TIME FUNCTIONS
+[ ] current_date() | [ ] current_timestamp() | [ ] date_add() | [ ] date_sub() | [ ] datediff() | [ ] add_months() | [ ] months_between() | [ ] date_format() | [ ] trunc() | [ ] last_day() | [ ] next_day() | [ ] to_date() | [ ] to_timestamp() | [ ] unix_timestamp() | [ ] from_unixtime()
+
+---
+
+## 4. AGGREGATION PATTERNS
+[ ] count() | [ ] countDistinct() | [ ] sum() | [ ] avg() | [ ] min() | [ ] max() | [ ] groupBy().agg() | [ ] Multiple Aggregations | [ ] Conditional Aggregations
+
+---
+
+## 5. SET OPERATIONS
+[ ] union() | [ ] unionByName() | [ ] intersect() | [ ] intersectAll() | [ ] except() | [ ] exceptAll()
+
+---
+
+## 6. JOIN PATTERNS
+[ ] Inner Join | [ ] Left Join | [ ] Right Join | [ ] Full Join | [ ] Cross Join | [ ] Self Join | [ ] Multi-table Join | [ ] Left Anti Join | [ ] Left Semi Join | [ ] Broadcast Join
+
+---
+
+## 7. WINDOW FUNCTIONS ⭐
+[ ] row_number() | [ ] rank() | [ ] dense_rank() | [ ] lag() | [ ] lead() | [ ] first_value() | [ ] last_value() | [ ] ntile() | [ ] cume_dist() | [ ] percent_rank() | [ ] rowsBetween() | [ ] rangeBetween() | [ ] Running Total | [ ] Running Count | [ ] Running Average | [ ] Rolling Average
+
+---
+
+## 8. INTERVIEW PATTERNS 🎯
+[ ] Top N Records | [ ] Top N Per Group | [ ] Bottom N Records | [ ] Nth Highest Salary | [ ] Second Highest Salary | [ ] Latest Record Per Customer | [ ] First Record Per Customer | [ ] Last Record Per Customer | [ ] Deduplication | [ ] Change Detection
+
+---
+
+## 9. TIME SERIES PATTERNS
+[ ] Running Total | [ ] Rolling Sum | [ ] Rolling Average | [ ] Month-over-Month Analysis | [ ] Year-over-Year Analysis | [ ] Revenue By Month | [ ] Revenue By Quarter
+
+---
+
+## 10. CONSECUTIVE RECORD PATTERNS
+[ ] Consecutive Increases | [ ] Consecutive Decreases | [ ] Numbers Appearing N Times Consecutively | [ ] Login Streaks | [ ] Purchase Streaks
+
+---
+
+## 11. GAPS AND ISLANDS
+[ ] Continuous Date Ranges | [ ] Missing Date Ranges | [ ] Consecutive Active Days | [ ] Consecutive Transaction Days
+
+---
+
+## 12. ARRAY FUNCTIONS
+[ ] explode() | [ ] explode_outer() | [ ] posexplode() | [ ] collect_list() | [ ] collect_set() | [ ] array_contains() | [ ] size() | [ ] flatten() | [ ] arrays_zip() | [ ] sequence()
+
+---
+
+## 13. STRUCT & JSON
+[ ] Access Struct Fields | [ ] Create Struct | [ ] Nested Struct Handling | [ ] Parse JSON | [ ] Flatten JSON | [ ] Nested JSON Extraction
+
+---
+
+## 14. COLLECTION & HIGHER ORDER FUNCTIONS ⭐
+[ ] create_map() | [ ] map_keys() | [ ] map_values() | [ ] element_at() | [ ] map_filter() | [ ] transform() | [ ] filter() | [ ] aggregate() | [ ] exists() | [ ] forall() | [ ] array_sort()
+
+---
+
+## 15. PARTITIONING
+[ ] repartition() | [ ] repartition(n, col) | [ ] coalesce() | [ ] partitionBy() | [ ] bucketBy() | [ ] sortBy()
+
+---
+
+## 16. SCHEMA MANAGEMENT ⭐
+[ ] StructType | [ ] StructField | [ ] DDL Schemas | [ ] Schema Inference | [ ] Explicit Schema | [ ] Schema Evolution | [ ] Schema Validation | [ ] Nullable vs Non-Nullable
+
+---
+
+## 17. NULL HANDLING ⭐
+[ ] isNull() | [ ] isNotNull() | [ ] na.drop() | [ ] na.fill() | [ ] coalesce() | [ ] eqNullSafe() | [ ] Null Handling in Aggregations | [ ] when().otherwise()
+
+---
+
+## 18. UDFs (USER-DEFINED FUNCTIONS) ⭐
+[ ] UDF | [ ] Pandas UDF | [ ] SQL UDF | [ ] UDF Registration | [ ] UDF Return Types | [ ] UDF Performance | [ ] Built-in vs UDF
+
+---
+
+## 19. RDD FUNDAMENTALS
+[ ] map() | [ ] flatMap() | [ ] filter() | [ ] reduceByKey() | [ ] groupByKey() | [ ] aggregateByKey() | [ ] combineByKey() | [ ] Pair RDDs | [ ] Accumulators | [ ] Broadcast Variables
+
+---
+
+## 20. ADVANCED JOIN STRATEGIES 🚀
+[ ] Broadcast Join | [ ] Shuffle Hash Join | [ ] Sort Merge Join | [ ] Bucket Join | [ ] Bloom Filter Join | [ ] Join Hints | [ ] AQE Join Optimization
+
+---
+
+## 21. DATA SKEW HANDLING ⭐
+[ ] Detecting Data Skew | [ ] Salting | [ ] AQE | [ ] Skew Join Hints | [ ] Custom Partitioning | [ ] Repartition by Key
+
+---
+
+## 22. DATAFRAME WRITER OPTIONS
+[ ] overwrite | [ ] append | [ ] error | [ ] ignore | [ ] Dynamic Partition Overwrite | [ ] CSV Options | [ ] JSON Options | [ ] Parquet Options | [ ] maxRecordsPerFile
+
+---
+
+## 23. ERROR HANDLING & DATA QUALITY 🛡️
+[ ] PERMISSIVE | [ ] DROPMALFORMED | [ ] FAILFAST | [ ] columnNameOfCorruptRecord | [ ] badRecordsPath | [ ] Data Validation | [ ] Constraint Validation | [ ] Dead Letter Queue Pattern
+
+---
+
+## 24. SPARK SQL INTEGRATION
+[ ] createOrReplaceTempView() | [ ] createOrReplaceGlobalTempView() | [ ] spark.sql() | [ ] spark.table() | [ ] catalog.listTables() | [ ] catalog.listDatabases() | [ ] Table vs View | [ ] SQL + DataFrame API
+
+---
+
+## 25. PERFORMANCE OPTIMIZATION 🚀
+[ ] Explain Plan | [ ] Narrow Transformations | [ ] Wide Transformations | [ ] Shuffle Identification | [ ] Broadcast Optimization | [ ] Data Skew Detection | [ ] Cache | [ ] Persist | [ ] Storage Levels | [ ] unpersist() | [ ] Checkpoint
+
+---
+
+## 26. MEMORY MANAGEMENT ⚡
+[ ] MEMORY_ONLY | [ ] MEMORY_AND_DISK | [ ] DISK_ONLY | [ ] Off Heap Memory | [ ] Spill Detection | [ ] Executor Memory | [ ] Driver Memory | [ ] OOM Debugging | [ ] GC Tuning
+
+---
+
+## 27. FILE FORMAT OPTIMIZATION
+[ ] CSV | [ ] JSON | [ ] Parquet | [ ] ORC | [ ] Snappy Compression | [ ] Gzip Compression | [ ] Predicate Pushdown | [ ] Column Pruning | [ ] Partition Pruning
+
+---
+
+## 28. SPARK ARCHITECTURE 🏛️
+[ ] Driver | [ ] Executor | [ ] Cluster Manager | [ ] Task | [ ] Stage | [ ] Job | [ ] DAG | [ ] Lazy Evaluation | [ ] Catalyst Optimizer | [ ] Tungsten
+
+---
+
+## 29. SPARK INTERNALS 🔧
+[ ] DAG Scheduler | [ ] Task Scheduler | [ ] Stage Creation | [ ] Shuffle Write | [ ] Shuffle Read | [ ] Exchange Operator | [ ] Whole Stage Code Generation | [ ] Catalyst Rules | [ ] Predicate Pushdown | [ ] Projection Pushdown
+
+---
+
+## 30. ADVANCED PATTERNS
+[ ] Pivot | [ ] Unpivot | [ ] Median | [ ] Percentile | [ ] Approx Count Distinct | [ ] Cartesian Join Handling
+
+---
+
+## 31. REAL-WORLD SCENARIOS 🎯 ⭐
+[ ] Large Table + Small Table Join | [ ] Two Large Table Join | [ ] Skewed Join Handling | [ ] Incremental Load Processing | [ ] CDC Processing | [ ] Late Arriving Data | [ ] Duplicate Handling | [ ] Corrupt Record Handling | [ ] Backfill Processing | [ ] Reprocessing Failed Partitions | [ ] Small File Problem | [ ] Millions of Tiny Files | [ ] OOM Debugging | [ ] Long Running Stage Analysis | [ ] Executor Lost Troubleshooting
+
+---
+
+## 32. SPARK TROUBLESHOOTING 🔥 ⭐
+[ ] Job Slow | [ ] Stage Slow | [ ] Task Slow | [ ] Executor OOM | [ ] Driver OOM | [ ] Data Skew | [ ] Excessive Shuffle | [ ] Spill To Disk | [ ] GC Overhead | [ ] Broadcast Timeout | [ ] Shuffle Fetch Failure | [ ] Executor Lost | [ ] Schema Mismatch | [ ] Corrupt Records | [ ] File Not Found
+
+---
+## 📊 ROADMAP SUMMARY
+**Total:** 32 sections | **Study Time:** 8-12 weeks | **Interview Coverage:** 95%+
+
+**Critical (⭐):** Schema Management | Null Handling | UDFs | Window Functions | Data Skew | Real-World Scenarios | Troubleshooting
